@@ -1,3 +1,5 @@
+import 'package:draft/my_widgets/search_barre.dart';
+import 'package:draft/my_widgets/timerDraft.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,11 +11,26 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Text('Hello World!'),
-        ),
+            child: Column(
+          children: [
+            Container(
+              height: 690,
+              width: 350,
+              color: const Color.fromARGB(255, 247, 233, 239),
+              child: const Column(
+                children: [
+                  Row(
+                    children: [timerDraft(), Text("data")],
+                  ),
+                  SearchBarre(),
+                ],
+              ),
+            ),
+          ],
+        )),
       ),
     );
   }
