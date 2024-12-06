@@ -14,7 +14,7 @@ class _SearchBarreState extends State<SearchBarre> {
       decoration: InputDecoration(
         prefixIcon: Icon(
           Icons.search,
-          color: Colors.black.withOpacity(1), // Opacité de l'icône de loupe
+          color: Colors.black.withOpacity(1), //
         ),
         hintText: 'Search',
         hintStyle: TextStyle(
@@ -31,8 +31,7 @@ class _SearchBarreState extends State<SearchBarre> {
           ),
         ),
       ),
-      style: const TextStyle(
-          color: Colors.black), // Couleur du texte lorsque l'utilisateur tape
+      style: const TextStyle(color: Colors.black),
     );
   }
 }
