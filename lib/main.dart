@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(title: const Text('API Fetch Example')),
-        body: const DisplayChampions()
+        body: const DisplayAllChampions()
       ),
     );
   }
