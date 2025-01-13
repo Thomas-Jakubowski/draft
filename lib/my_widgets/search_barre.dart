@@ -21,7 +21,7 @@ class _SearchBarreState extends State<SearchBarre> {
           color: Colors.black.withOpacity(0.4),
         ),
         filled: true,
-        fillColor: const Color.fromARGB(255, 212, 73, 3),
+        fillColor: const Color.fromARGB(255, 161, 57, 31),
         border: const OutlineInputBorder(
           //borderRadius: BorderRadius.circular(30),
           //borderSide: BorderSide.none,
