@@ -1,6 +1,5 @@
-// main.dart
 import 'package:flutter/material.dart';
-import 'displayChampions.dart'; // Importer le fichier DisplayChampions
+import 'displayChampions.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: const Text('API Fetch Example')),
+        appBar: AppBar(title: const Text('Draft API')),
         body: const DisplayAllChampions()
       ),
     );
