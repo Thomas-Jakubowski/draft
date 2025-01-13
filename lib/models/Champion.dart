@@ -4,6 +4,7 @@ class Champion {
   String imageUrl;
   bool isFavorite;
   bool isFreeThisWeek;
+  List<int> info;
 
   Champion({
     this.name = "",
@@ -11,5 +12,11 @@ class Champion {
     this.imageUrl = "",
     this.isFavorite = false,
     this.isFreeThisWeek = false,
+    this.info = const [],
   });
+
+  void setFavorite() {
+    isFavorite = !isFavorite;
+  }
 }
+
